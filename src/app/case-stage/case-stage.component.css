@@ -1,0 +1,22 @@
+.caserow {
+    font-weight: bold;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+.unopened {
+    background-color: silver;
+    color: black;
+}
+.opened {
+    background-color: black;
+    color: white;
+}
+.case {
+    display: inline-block;
+    width: 50px;
+    height: 80px;
+    border: 1px solid black;
+
+}

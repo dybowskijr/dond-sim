@@ -1,0 +1,5 @@
+<div>Cases</div>
+<div class="caserow"><div *ngFor="let c of cases" class="case" ngClass="{{c.status}}"
+   (click)="c.toggle()">{{c.caseNumber}}</div>
+</div>
+<div>Selected Case</div>

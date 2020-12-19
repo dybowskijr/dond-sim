@@ -1,0 +1,6 @@
+.opened {
+    background-color: lightgray;
+}
+.unopened {
+    background-color: yellow;
+}
